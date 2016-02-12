@@ -3,7 +3,7 @@ public class SwitchDemo {
 
 	public static void main(String[] args) {
 		
-	int numDays = numOfDays(2001, 12);
+	int numDays = numOfDays(2000, 3);
 	System.out.println("Number of days in given year and month are: " + numDays);
 		
 
@@ -26,7 +26,12 @@ public class SwitchDemo {
 			}
 			break;
 		case 3:
-			numDays = 31;
+			if (year % 400 == 0) {
+				numDays = 40;				
+			}
+			else {
+				numDays = 31;	
+			}
 			break;
 		case 4:
 			numDays = 30;
