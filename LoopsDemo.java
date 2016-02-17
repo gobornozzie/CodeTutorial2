@@ -22,6 +22,11 @@ public class LoopsDemo {
 			System.out.println(car);
 		}
 		
+		String[] bikes = {"bmx", "Gary Fischer", "Trek", "Cannondale"};
+		for (String bike: bikes){
+			System.out.println("The value is " + bike);
+		}
+		
 	}
 
 }
