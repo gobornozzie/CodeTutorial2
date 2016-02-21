@@ -1,20 +1,22 @@
 
 public class BMW extends Cars{
-	public BMW (int startSpeed){
+	public BMW(int startSpeed){
 		super(startSpeed);
+	
 	}
 
 	@Override
 	public void increaseSpeed() {
-		System.out.println("Increasing Speed of BMW");
+		System.out.println("Increasing speed of BMW");
 	}
 	
-	public void headupDisplayNavigation() {
-		System.out.println("BMW Specific functionality");
+	public void headsUpDisplayNavigation(){
+		System.out.println("BMW specific functionality");
 	}
-	
-	
-	
+
+	/*public void increaseSpeed(int speed){
+		
+	}*/
 	
 	
 	

@@ -1,21 +1,20 @@
 
 public class Cars {
 
-	public Cars (int startSpeed){
+	int speed;
+	
+	public Cars(int startSpeed){
 		speed = startSpeed;
 	}
 	
-	int speed;
-	
-	public void increaseSpeed() {
+	public void increaseSpeed(){
 		speed++;
 		System.out.println("Increasing Speed of Cars");
 	}
 	
-	public void decreaseSpeed() {
+	public void decreaseSpeed(){
 		speed--;
 		System.out.println("Decreasing Speed of Cars");
 	}
 	
-		
 }
