@@ -1,3 +1,6 @@
+import automobile.Audi;
+import automobile.BMW;
+import automobile.Cars;
 
 public class InheritanceDemo {
 
@@ -5,11 +8,12 @@ public class InheritanceDemo {
 		int speed = 0;
 		int wheel = 10;
 		
-		Cars c1 = new Cars(speed);
+		Cars c1 = new Cars();
 		c1.increaseSpeed();
 		c1.decreaseSpeed();
+		c1.publicSpeed = 10;
 		
-		Cars c2 = new Cars(wheel);
+		Cars c2 = new Cars();
 		c2.wheelSizeSmall();
 		c2.wheelSizeLarge();
 		
