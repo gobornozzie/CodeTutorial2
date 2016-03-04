@@ -12,6 +12,7 @@ public class InheritanceDemo {
 		c1.increaseSpeed();
 		c1.decreaseSpeed();
 		c1.publicSpeed = 10;
+		c1.exhaustSize = 7;
 		
 		Cars c2 = new Cars();
 		c2.wheelSizeSmall();

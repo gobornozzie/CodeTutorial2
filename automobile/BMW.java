@@ -8,6 +8,9 @@ public class BMW extends Cars{
 
 	@Override
 	public void increaseSpeed() {
+		protectedSpeed++;
+		Cars c1 = new Cars();
+		c1.decreaseSpeed();
 		System.out.println("Increasing speed of BMW");
 	}
 

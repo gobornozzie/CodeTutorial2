@@ -9,7 +9,8 @@ public class AccessModifiersDemo {
 		c1.speed = 10;
 		c1.setPrivateSpeed(11);
 		c1.publicSpeed = 100;
-
+		c1.exhaustSize = 5;
+		c1.protectedSpeed = 101;
 
 	}
 
