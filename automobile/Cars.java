@@ -5,6 +5,7 @@ public class Cars {
 	public int speed;
 	public int wheel;
 	public int exhaustSize;
+	public int wheelSize;
 	//Private variables only allowed within class
 	private int privateSpeed;
 	
@@ -13,7 +14,7 @@ public class Cars {
 	
 	//in same package and in sub classes
 	protected int protectedSpeed;
-	
+	protected int driverWheelSize;
 	
 	
 	public Cars(){

@@ -1,0 +1,26 @@
+package automobile;
+
+public abstract class AbstractCars {
+	private int privateSpeed;
+	public int pSpeed;
+	
+	protected int protectedSpeed;
+		
+	int speedLimit = 100;
+	
+	public AbstractCars(){
+		this(0);
+	}
+
+	public AbstractCars(int startSpeed) {
+		this.privateSpeed = pSpeed;
+	}
+		
+	public void setPrivateSpeed(int pSpeed){
+		this.privateSpeed = pSpeed;
+	}
+	public void engineStart(String keyType, int numOfCyl) {
+	}
+	
+}
+	

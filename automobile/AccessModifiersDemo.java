@@ -11,6 +11,7 @@ public class AccessModifiersDemo {
 		c1.publicSpeed = 100;
 		c1.exhaustSize = 5;
 		c1.protectedSpeed = 101;
+		c1.driverWheelSize = 3;
 
 	}
 

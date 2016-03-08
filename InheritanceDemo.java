@@ -2,6 +2,7 @@ import automobile.Audi;
 import automobile.BMW;
 import automobile.Cars;
 
+
 public class InheritanceDemo {
 
 	public static void main(String[] args) {

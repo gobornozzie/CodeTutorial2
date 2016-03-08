@@ -6,6 +6,8 @@ public class Honda extends Cars {
 		c1.publicSpeed = 13;
 		c1.setPrivateSpeed(12);
 		protectedSpeed = 100;
+		c1.wheelSize = 11;
+		driverWheelSize = 2;
 		
 	}
 	
