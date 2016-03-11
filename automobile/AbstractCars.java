@@ -19,8 +19,7 @@ public abstract class AbstractCars {
 	public void setPrivateSpeed(int pSpeed){
 		this.privateSpeed = pSpeed;
 	}
-	public void engineStart(String keyType, int numOfCyl) {
-	}
+	public abstract void engineStart(String keyType, int numOfCyl);
 	
 }
 	
