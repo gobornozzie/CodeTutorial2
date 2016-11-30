@@ -7,8 +7,10 @@ public class HelloWorld {
 		//various methods can be inside a class
 		//method is the actual behavior where we will write out logic, actions
 		//Variables are used to store values (memory where variables are saved)
-		System.out.println("Hello World");
 		
+		//Another coment added here
+		System.out.println("Hello World");
+		System.out.println("Another Line added to this code");
 	}
 
 }
